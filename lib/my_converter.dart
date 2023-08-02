@@ -26,12 +26,12 @@ void set binario(String binario){
   // TODO: Crea un [setter] y [getter] para [decimal].
 
   String convertBinary() {
-    Utils.bin2dec(binary)
+    Utils.bin2dec(binary);
     // todo: Usa [Util] para convertir el numero binario a un numero decimal.
   }
 
   String convertDecimal() {
-    Converter.
+    Utils.dec2bin(decimal);
     // todo: Usa [Converter] para convertir el numero decimal a un numero binario.
   }
 }
