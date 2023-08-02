@@ -1,6 +1,6 @@
 abstract class Utils {
   static String bin2dec(String binary) {
-   return int.parse(binary, radix: 2).toRadixString(10);
+   return int.parse(decimal, radix: 2).toRadixString(10);
     // todo: convierte [binary] en un [int] de base 2 y luego conviertelo a base 10
   }
 
